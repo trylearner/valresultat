@@ -1,5 +1,5 @@
 # valresultat
-Try learner försöker ge sig på javascript med en uppgift att man har en knapp som 
+Try learner försöker ge sig in på javascript med en uppgift att man har en knapp som 
 anropar lista från JSON som visar valresultat från från senaste åren 2018
 och tidigare åren 2014 där av ett namn på ett partinamn som procent enheten som visar. 
 Började med att hämta in skapa ett JSON på mockarro därefter fyller man in data. 
