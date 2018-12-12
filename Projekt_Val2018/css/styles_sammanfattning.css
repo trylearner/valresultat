@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@media (max-width:800px){
+
+    #rubrik-left
+
+     {
+       
+       margin-right:15%; 
+       float: left;
+       font-size:16pt;
+
+     }
+}
+
+@media (max-width:800px){
+  nav main footer 
+  { size:4vw;}
+  article .valstuga
+
+    {
+        
+        width:200px;      
+    }
+}
+@media (max-width:800px){
+    #wrapper{
+
+        zoom:70%;
+    }
+}
+
+
+
+body{
+    background-color: rgb(231, 104, 104);
+}
+
+#wrapper {
+    margin:auto;
+    display:grid;
+    width:800px;
+    height:auto;
+    grid-template-columns: 1fr;
+    grid-template-rows:100px 51px 1000px 100px; 
+    grid-template-areas: 
+    
+
+    "hd hd"
+    "nv nv"
+    "mn mn"
+    "ft ft";
+}
+
+
+
+
+
+
+ul  {
+
+    display: inline-block;
+    list-style: none;
+    
+}
+
+li {
+    display:inline-block;
+    
+    
+
+}
+
+.drawing{
+    grid-area:hd;
+    margin-top:0px;
+    
+    
+}
+section{
+    background-color:white;
+}
+
+
+nav,.menu_rd {
+    margin-left:0px;
+    width:800px;
+    height:51px;
+    background-color: rgb(235, 141, 47);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+}
+
+
+.menu_rd  {
+    margin-left:0px;
+    width:800px;
+    height:51px;
+    background-color: rgb(235, 141, 47);
+}
+
+/*
+.left-section1{
+    padding:0px;
+    grid-area:s1;
+    font-family:Arial, Verdana, Tahoma;
+    background-color: white;
+    font-size:12pt;
+    padding-left:10px;
+    
+    
+   
+}
+
+.right-section2{
+    grid-area: s2;
+    background-color:white;
+    margin-top:0px;
+    padding-left:15px;
+    padding-top:30px;
+    
+    
+*/
+}
+
+article{
+    margin:auto;
+    columns:none;
+
+}
+
+footer{
+    grid-area:ft;
+    background-color:rgb(49, 27, 1);
+}
+
+ a{
+
+    text-decoration: none;
+    color:rgb(252, 252, 252);
+    line-height:50px;
+    /*padding-left: */
+    display:block;
+    margin-left: 100px;
+    font-weight:bold;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+a:hover{
+    color:rgb(18, 15, 46);
+}
+
+ .link-part{
+    color:darkgreen;   
+    line-height: 15px;
+    left:50px;
+    width:100%;
+    padding-top:10px;
+    margin-top:15px;
+
+    
+
+}
+
+nav {
+    grid-area:nv;
+    
+}
+
+main {
+
+    padding-top:15px;
+    grid-area:mn;
+    background-color:white;
+    background-size:100%;
+    
+}
+
+/* Flytta slideframe eller ändra på storleken
+
+#sliderframe{
+
+}
+*/
+h2 {
+    padding-top:0px;
+    margin-left:10px;
+    font-family: Arial;
+    font-size:20pt;
+}
+
+p {
+    font-size:14pt;
+    font-family: Arial, Verdana, Tahoma;
+    margin: 200px 50px auto 100px;
+    
+
+}

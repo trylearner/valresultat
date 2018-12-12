@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@media (max-width:800px){
+
+    #rubrik-left
+
+     {
+       
+       margin-right:15%; 
+       float: left;
+       font-size:16pt;
+
+     }
+}
+
+@media (max-width:800px){
+  nav main footer 
+  { size:4vw;}
+  article .valstuga
+
+    {
+        
+        width:200px;      
+    }
+}
+@media (max-width:800px){
+    #wrapper{
+
+        zoom:70%;
+    }
+}
+
+
+
+body{
+    background-color: rgb(231, 104, 104);
+}
+
+#wrapper {
+    margin:auto;
+    display:grid;
+    width:800px;
+    height:auto;
+    grid-template-columns: 1fr ;
+    grid-template-rows:100px 51px auto 100px; 
+    grid-template-areas: 
+    
+
+    "hd hd"
+    "nv nv"
+    "mn mn"
+    
+    "ft ft";
+}
+ul  {
+
+    display: inline-block;
+    list-style: none;
+    
+}li {
+    display:inline-block;
+    
+    
+
+}
+.drawing{
+    grid-area:hd;
+    margin-top:0px;
+    
+    
+}
+section, .left-section1{
+    background-color:white;
+    grid-area: s1;
+}
+nav,.menu_rd {
+    margin-left:0px;
+    width:800px;
+    height:51px;
+    background-color: rgb(235, 141, 47);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+}
+.menu_rd  {
+    margin-left:0px;
+    width:800px;
+    height:51px;
+    background-color: rgb(235, 141, 47);
+}
+
+/*.left-section1{
+    grid-area: s1;
+    background-color:white;
+    margin-top:0px;
+    padding-left:15px;
+    padding-top:30px;
+    
+}*/
+
+article{
+    margin:auto;
+    columns:none;
+
+}
+
+footer{
+    grid-area:ft;
+    background-color:rgb(49, 27, 1);
+
+}
+
+a{
+
+    text-decoration: none;
+    color:rgb(252, 252, 252);
+    line-height:50px;
+    /*padding-left: */
+    display:block;
+    margin-left: 100px;
+    font-weight:bold;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+a:hover{
+    color:rgb(18, 15, 46);
+}
+
+nav {
+    grid-area:nv;
+    
+}
+
+tr {
+    width: 0px;
+} 
+
+
+main {
+
+    padding-top:15px;
+    padding-bottom:700px;
+    grid-area:mn;
+    background-color:white;
+    background-size:100%;
+    
+}
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left:50px;
+    
+    width:80%;
+  }
+   td, tr {
+    padding: 6px;
+    text-align: left;    
+  }
+
+  section {
+    background-color: white;
+    width:100%;
+
+  }

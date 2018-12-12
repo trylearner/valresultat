@@ -1,0 +1,58 @@
+    [
+        {
+            "id": 1,
+            "partnamn": null,
+            "parti": "Socialdemokraterna",
+            "partiledare": "Partiledare Stefan Löfven",
+            "procent": "<b>28,3%</b>"
+        },
+        {
+            "id": 2,
+            "partnamn": null,
+            "parti": "Moderaterna",
+            "partiledare": "Partiledare Ulf Krissterson",
+            "procent": "<b>19,8%</b>"
+        },
+        {
+            "id": 3,
+            "partnamn": null,
+            "parti": "Sverigedemokraterna",
+            "partiledare": "Partiledare Jimmie Åkesson",
+            "procent": "<b>17,5%</b>"
+        },
+        {
+            "id": 4,
+            "partnamn": null,
+            "parti": "Centerpartiet",
+            "partiledare": "Partiledare </br> Annie Lööf",
+            "procent": "<b>8,6%</b>"
+        },
+        {
+            "id": 5,
+            "partnamn": null,
+            "parti": "Vänsterpartiet",
+            "partiledare": "Partiledare Jonas Högstedt ",
+            "procent": "<b>8.0%</b>"
+        },
+        {
+            "id": 6,
+            "partnamn": null,
+            "parti": "Kristdemokraterna",
+            "partiledare": "Partiledare Emma Busch",
+            "procent": "<b>5.6%</b>"
+        },
+        {
+            "id": 7,
+            "partnamn": null,
+            "parti": "Liberalerna",
+            "partiledare": "Partiledare Jan Björklund",
+            "procent": "<b>5.5%</b>"
+        },
+        {
+            "id": 8,
+            "partnamn": null,
+            "parti": "Miljöpartiet",
+            "partiledare": "Isabella Lövin o Gustav Fridolin",
+            "procent": "<b>4.4%</b>"
+        }
+    ]
